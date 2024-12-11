@@ -18,8 +18,15 @@ header img{
     width: 60px;
     height: 60px;
 }
+header li{
+    list-style: none;
+    display: flex;
+    width: 5%;
+    justify-content:space-around;
+    align-items:flex-start;
+}
 
-header ul{
+header ul li {
     list-style: none;
     display: flex;
     width: 40%;
@@ -102,6 +109,25 @@ main section{
 
 .carta div{
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     gap: 3px;
+    align-items: center;
+    justify-content:space-between;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content:space-between;
+    footer img{
+        list-style: none;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        justify-content:space-between;
+
+    }
+       
+   
 }
