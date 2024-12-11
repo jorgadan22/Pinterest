@@ -19,18 +19,16 @@ header img{
     height: 60px;
 }
 
-header ul li{
+header ul{
     list-style: none;
     display: flex;
     width: 40%;
-   
+    justify-content: space-between;
+    align-items: center;
 }
 
 header ul li{
-    font-size: 18px;
-    display: flex;
-    width: 40%;
-    
+    font-size: 22px;
 }
 
 header ul li a{
@@ -46,7 +44,7 @@ main ul{
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap; 
     overflow: auto;
     gap: 50px;
 }
